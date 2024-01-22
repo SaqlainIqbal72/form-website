@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background: #F5F5F5;
+
+}
+
+header .logo {
+    margin-top: 16px;
+    /* margin-right: 239px; */
+    margin-left: 110px;
+}
+
+.links {}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 34.85px;
+}
+
+ul li a {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 500% */
+    margin-top: 23px;
+    height: 90px;
+    display: block;
+}
+
+.last {}
+
+
+
+
+/* ===============================================
+                       main-styles-here
+    ================================================= */
+main {
+
+    background: #F5F5F5;
+    display: flex;
+    gap: 43px;
+
+}
+
+.content {
+    margin-left: 110px;
+    width: 634px;
+    height: 501px;
+    background-color: #FFF;
+    padding: 25px 0;
+    padding-left: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.content h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 476px;
+    margin-bottom: 20px;
+
+}
+
+.content .para1 {
+    color: #3C3C3C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 476px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.content input {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    width: 282px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    border: 0.5px solid #D3D3D3;
+}
+
+input[placeholder="Number"] {
+    width: 584px;
+}
+
+.content .para2 {
+    color: #757575;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.content button {
+    border-radius: 6px;
+    background: #EE751B;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 584px;
+    padding: 6px 37px;
+}
+
+.right-main {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/Rectangle\ 9.png);
+    width: 634px;
+    background-repeat: no-repeat;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+
+}
+
+
+
+.main-second .div-item {
+    width: 543px;
+    height: 177px;
+    display: flex;
+    gap: 20px;
+    padding: 20px 27px;
+    background: #FFF;
+}
+
+.main-second .div-item .logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.main-second .div-item .sec-content h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-second .div-item .sec-content p {
+    width: 409px;
+    color: #141414;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.main-second .div-item .sec-content a {
+    color: #EE751B;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #EE751B;
+}
+
+.main-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+/* ==================================
+            footer====================== */
+            footer{
+             
+display: inline-flex;
+height: 142px;
+gap: 26px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+width: 100%;
+background: #A2DBE3;
+            }
+            footer a{
+                color: #4F4F4F;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+            }
